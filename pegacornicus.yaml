@@ -1,0 +1,17 @@
+document: modulemd
+version: 2
+data:
+    name: pegacornicus
+    summary: Modular Test RPM
+    description: Modular Test RPM
+    license: 
+        module: [MIT]
+    dependencies:
+        - buildrequires:
+            platform: [f30]
+          requires:
+            platform: [f30]
+    components:
+        rpms:
+            pegacornicus:
+                repository: https://github.com/mcurlej/pegacornicus.git
