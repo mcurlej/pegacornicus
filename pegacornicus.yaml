@@ -2,6 +2,7 @@ document: modulemd
 version: 2
 data:
     name: pegacornicus
+    stream: devel
     summary: Modular Test RPM
     description: Modular Test RPM
     license: 

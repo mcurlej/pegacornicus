@@ -1,11 +1,11 @@
 Name:           pegacornicus
-Version:        0.0.1
+Version:        0.0.3
 Release:        1%{?dist}
 Summary:        Hello World for RPM
 
 License:        MIT
 URL:            https://github.com/mcurlej/%{name}
-Source0:        https://github.com/mcurlej/%{name}/archive/%{version}.tar.gz
+Source0:        https://github.com/mcurlej/%{name}/archive/devel.tar.gz
 
 BuildRequires:  python
 Requires:       python
