@@ -8,10 +8,15 @@ data:
         module: [MIT]
     dependencies:
         - buildrequires:
-            platform: [f30]
+            platform: [f31]
           requires:
-            platform: [f30]
+            platform: [f31]
+    api:
+        rpms:
+            - pegacornicus
     components:
         rpms:
             pegacornicus:
                 repository: https://github.com/mcurlej/pegacornicus.git
+                ref: devel
+                buildorder: 1
