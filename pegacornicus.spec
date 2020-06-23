@@ -5,7 +5,7 @@ Summary:        Hello World for RPM
 
 License:        MIT
 URL:            https://github.com/mcurlej/%{name}
-Source0:        https://github.com/mcurlej/%{name}/archive/devel.tar.gz
+Source0:        https://github.com/mcurlej/%{name}/archive/dev.tar.gz
 
 BuildRequires:  python
 Requires:       python
