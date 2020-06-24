@@ -18,7 +18,7 @@ Hello World for RPM
 
 
 %prep
-%autosetup
+%autosetup -n pegacornicus-dev
 
 
 %build
