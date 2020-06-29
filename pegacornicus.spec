@@ -5,8 +5,7 @@ Summary:        Hello World for RPM
 
 License:        MIT
 URL:            https://github.com/mcurlej/%{name}
-%_disable_source_fetch      0
-%_urlhelper     %{__urlhelpercmd} %{?__urlhelper_localopts} -L %{?__urlhelper_proxyopts} %{__urlhelperopts}
+%define _disable_source_fetch 0
 Source0:        https://github.com/mcurlej/%{name}/archive/dev.tar.gz
 
 BuildRequires:  python
